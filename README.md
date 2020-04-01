@@ -4,6 +4,9 @@ This repository implements YOLOv3 and Deep SORT in order to perfrom real-time ob
 ![Demo of Object Tracker](data/video/traffic-result-gif.gif)
 #### Note:  <i><small> I referenced this repo from Youtube video by [The AI Guy](https://www.youtube.com/watch?v=Cf1INvUsvkM&lc=z225j1ixysjxwhlvnacdp431jphj0oobdzwbosngo0dw03c010c.1585682883809851) </small></i>
 
+<strong>Original Repo :</strong> [Github](https://github.com/theAIGuysCode/yolov3_deepsort)<br>
+<strong>Google Colab :</strong> ```'Yolo object tracking'``` [Colab](https://colab.research.google.com/drive/1PrEt-t-uLXgA8k8eeSn3SrSsnZlXS3Br)
+
 ## Getting started
 
 #### Conda (Recommended)
