@@ -6,7 +6,7 @@ This repository implements YOLOv3 and Deep SORT in order to perfrom real-time ob
 
 <strong>Original Repo :</strong> [Github](https://github.com/theAIGuysCode/yolov3_deepsort)<br>
 <strong>Google Colab :</strong> ```'Yolo object tracking'``` [Colab](https://colab.research.google.com/drive/1PrEt-t-uLXgA8k8eeSn3SrSsnZlXS3Br)
-###### Note : If you are running this on Google Colab, output .avi file id beeing corrupted. I am still figuring it out and I will update once I did it. For now I suggest to try it on local machine.
+###### Note : If you are running this on Google Colab, output .avi file is beeing corrupted. I am still figuring it out why? and will update once I did it. For now I suggest to try it on local machine.
 
 ## Getting started
 
