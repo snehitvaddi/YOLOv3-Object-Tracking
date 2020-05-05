@@ -90,7 +90,10 @@ python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/res
 ```
 The output flag saves your object tracker results as an avi file for you to watch back. It is not necessary to have the flag if you don't want to save the resulting video.
 
-There is a test video uploaded in the data/video folder called test.mp4. If you followed all the steps properly with the pretrained coco yolov3.weights model then when your run the object tracker wiht the first command above you should see the following.
+There is a test video uploaded in the data/video folder called test.mp4. If you have followed all the steps properly then you should see the output as below by running first command.ie;
+```
+python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/results.avi
+```
 #### Video Example
 ![Demo of Object Tracker](data/helpers/demo.gif)
 
