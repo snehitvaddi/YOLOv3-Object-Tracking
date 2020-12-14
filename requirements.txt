@@ -5,3 +5,4 @@ lxml
 tqdm
 seaborn
 pillow
+tensorflow-gpu>=2.4.0
