@@ -1,12 +1,15 @@
-# Object Tracking using YOLOv3, Deepsort and Tensorflow
+## Object Tracking using YOLOv3, Deepsort and Tensorflow
 This repository implements YOLOv3 and Deep SORT in order to perfrom real-time object tracking. Yolov3 is an algorithm that uses deep convolutional neural networks to perform object detection. We can feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in order for a real-time object tracker to be created.
 
 ![Demo of Object Tracker](data/video/traffic-result-gif.gif)
-#### Note:  <i><small> I referenced this repo from Youtube video by [The AI Guy](https://www.youtube.com/watch?v=Cf1INvUsvkM&lc=z225j1ixysjxwhlvnacdp431jphj0oobdzwbosngo0dw03c010c.1585682883809851) </small></i>
+### Author:  <i><small> I referenced this repo from Youtube video by [The AI Guy](https://www.youtube.com/watch?v=Cf1INvUsvkM&lc=z225j1ixysjxwhlvnacdp431jphj0oobdzwbosngo0dw03c010c.1585682883809851) </small></i>
 
-<strong>Original Repo :</strong> [Github](https://github.com/theAIGuysCode/yolov3_deepsort)<br>
-<strong>Google Colab :</strong> ```'Yolo object tracking'``` [Colab](https://colab.research.google.com/drive/1PrEt-t-uLXgA8k8eeSn3SrSsnZlXS3Br)
-###### Note : If you are running this on Google Colab, output .avi file is beeing corrupted. I am still figuring it out why? and will update once I did it. For now I suggest to try it on local machine.
+
+|🧠 Original Repo|💡 Colab Notebook|
+|--------|---------|
+|[Github](https://github.com/theAIGuysCode/yolov3_deepsort)| [Colab](https://colab.research.google.com/drive/1PrEt-t-uLXgA8k8eeSn3SrSsnZlXS3Br)|
+
+### Note : If you are running this on Google Colab, output .avi file is beeing corrupted. I am still figuring it out why? and will update once I did it. For now I suggest to try it on local machine.
 
 ## Getting started
 
