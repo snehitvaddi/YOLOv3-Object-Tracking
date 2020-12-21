@@ -1,18 +1,17 @@
 ## Object Tracking using YOLOv3, Deepsort and Tensorflow
 This repository implements YOLOv3 and Deep SORT in order to perfrom real-time object tracking. Yolov3 is an algorithm that uses deep convolutional neural networks to perform object detection. We can feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in order for a real-time object tracker to be created.
 
-![Demo of Object Tracker](data/video/traffic-result-gif.gif)
-### Author:  <i><small> I referenced this repo from Youtube video by [The AI Guy](https://www.youtube.com/watch?v=Cf1INvUsvkM&lc=z225j1ixysjxwhlvnacdp431jphj0oobdzwbosngo0dw03c010c.1585682883809851) </small></i>
+![Demo of Object Tracker](data/video/traffic-result-gif.gif)<br>
 
+Detailed tutorial by [@The AI Guy](https://www.youtube.com/channel/UCrydcKaojc44XnuXrfhlV8Q) on Object Tracking[Youtube Tutorial](https://www.youtube.com/watch?v=Cf1INvUsvkM&lc=z225j1ixysjxwhlvnacdp431jphj0oobdzwbosngo0dw03c010c.1585682883809851).
 
+--------------
 |🧠 Original Repo|💡 Colab Notebook|
 |--------|---------|
 |[Github](https://github.com/theAIGuysCode/yolov3_deepsort)| [Colab](https://colab.research.google.com/drive/1PrEt-t-uLXgA8k8eeSn3SrSsnZlXS3Br)|
 
-### Note : If you are running this on Google Colab, output .avi file is beeing corrupted. I am still figuring it out why? and will update once I did it. For now I suggest to try it on local machine.
-
 ## Getting started
-
+--------------
 #### Conda (Recommended)
 
 ```bash
@@ -42,6 +41,7 @@ sudo apt install nvidia-driver-430
 # Windows/Other
 https://www.nvidia.com/Download/index.aspx
 ```
+-------
 ### Downloading official pretrained weights
 <strong>For Linux</strong>: 
 You can download official yolov3 weights pretrained on COCO dataset.
@@ -52,9 +52,10 @@ wget https://pjreddie.com/media/files/yolov3.weights -O weights/yolov3.weights
 # yolov3-tiny
 wget https://pjreddie.com/media/files/yolov3-tiny.weights -O weights/yolov3-tiny.weights
 ```
-<strong>For Windows</strong>:
-You can download the yolov3 weights by clicking [here](https://pjreddie.com/media/files/yolov3.weights) and yolov3-tiny [here](https://pjreddie.com/media/files/yolov3-tiny.weights) then save them to the weights folder.
 
+If you are on Windows, you can directly download the YOLOv3 weights from [👉 here](https://pjreddie.com/media/files/yolov3.weights)
+
+-------
 ### Using Custom trained weights
 <strong> Learn How To Train Custom YOLOV3 Weights Here: https://www.youtube.com/watch?v=zJDUhGL26iU </strong>
 
@@ -76,17 +77,18 @@ python load_weights.py --weights ./weights/<YOUR CUSTOM WEIGHTS FILE> --output .
 
 After executing one of the above lines, you should see proper .tf files in your weights folder. You are now ready to run object tracker.
 
-## Running the Object Tracker
+### Running the Object Tracker
+
 Now you can run the object tracker for whichever model you have created, pretrained, tiny, or custom.
 ```
 # yolov3 on video
-python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/results.avi
+`python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/results.avi`
 
 #yolov3 on webcam 
-python object_tracker.py --video 0 --output ./data/video/results.avi
+`python object_tracker.py --video 0 --output ./data/video/results.avi` (May not properly in Colab)
 
 #yolov3-tiny 
-python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/results.avi --weights ./weights/yolov3-tiny.tf --tiny
+`python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/results.avi --weights ./weights/yolov3-tiny.tf --tiny`
 
 #yolov3-custom (add --tiny flag if your custom weights were trained for tiny model)
 python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/results.avi --weights ./weights/yolov3-custom.tf --num_classes <# CLASSES> --classes ./data/labels/<YOUR CUSTOM .names FILE>
