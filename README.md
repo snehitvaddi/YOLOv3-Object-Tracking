@@ -10,8 +10,9 @@ Detailed tutorial by [@The AI Guy](https://www.youtube.com/channel/UCrydcKaojc44
 |--------|---------|
 |[Github](https://github.com/theAIGuysCode/yolov3_deepsort)| [Colab](https://colab.research.google.com/drive/1PrEt-t-uLXgA8k8eeSn3SrSsnZlXS3Br)|
 
-## Getting started
 --------------
+## Getting started
+
 #### Conda (Recommended)
 
 ```bash
@@ -76,7 +77,7 @@ python load_weights.py --weights ./weights/<YOUR CUSTOM WEIGHTS FILE> --output .
 ```
 
 After executing one of the above lines, you should see proper .tf files in your weights folder. You are now ready to run object tracker.
-
+--------------
 ### Running the Object Tracker
 
 Now you can run the object tracker for whichever model you have created, pretrained, tiny, or custom.
@@ -99,6 +100,7 @@ There is a test video uploaded in the data/video folder called test.mp4. If you 
 ```
 python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/results.avi
 ```
+--------------
 #### Video Example
 ![Demo of Object Tracker](data/helpers/demo.gif)
 
