@@ -6,9 +6,6 @@ This repository implements YOLOv3 and Deep SORT in order to perfrom real-time ob
 |:-:|:-:|
 |![Demo of Object Tracker](data/helpers/demo.gif)|![Demo of Object Tracker](data/video/traffic-result-gif.gif)|
 
-
-<img src="https://github.com/snehitvaddi/YOLOv3-Object-Tracking/tree/master/data/helpers/demo.gif"> </img>
-<br>
 Detailed tutorial by [@The AI Guy](https://www.youtube.com/channel/UCrydcKaojc44XnuXrfhlV8Q) on Object Tracking[Youtube Tutorial](https://www.youtube.com/watch?v=Cf1INvUsvkM&lc=z225j1ixysjxwhlvnacdp431jphj0oobdzwbosngo0dw03c010c.1585682883809851).
 
 --------------
@@ -16,7 +13,6 @@ Detailed tutorial by [@The AI Guy](https://www.youtube.com/channel/UCrydcKaojc44
 |--------|---------|
 |[Github](https://github.com/theAIGuysCode/yolov3_deepsort)| [Colab](https://colab.research.google.com/drive/1PrEt-t-uLXgA8k8eeSn3SrSsnZlXS3Br)|
 
---------------
 ## Getting started
 
 #### Conda (Recommended)
@@ -40,7 +36,7 @@ pip install -r requirements.txt
 pip install -r requirements-gpu.txt
 ```
 
-### Nvidia Driver (For GPU, if you haven't set it up already)
+#### Nvidia Driver (For GPU, if you haven't set it up already)
 ```bash
 # Ubuntu 18.04
 sudo apt-add-repository -r ppa:graphics-drivers/ppa
@@ -81,9 +77,8 @@ python load_weights.py --weights ./weights/yolov3-tiny.weights --output ./weight
 # yolov3-custom (add --tiny flag if your custom weights were trained for tiny model)
 python load_weights.py --weights ./weights/<YOUR CUSTOM WEIGHTS FILE> --output ./weights/yolov3-custom.tf --num_classes <# CLASSES>
 ```
-
 After executing one of the above lines, you should see proper .tf files in your weights folder. You are now ready to run object tracker.
---------------
+
 ### Running the Object Tracker
 
 Now you can run the object tracker for whichever model you have created, pretrained, tiny, or custom.
