@@ -1,4 +1,4 @@
-## Object Tracking using YOLOv3, Deepsort and Tensorflow
+## ⚡ Object Tracking using YOLOv3, Deepsort and Tensorflow
 This repository implements YOLOv3 and Deep SORT in order to perfrom real-time object tracking. Yolov3 is an algorithm that uses deep convolutional neural networks to perform object detection. We can feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in order for a real-time object tracker to be created.
 
 #### Video Example
@@ -12,9 +12,9 @@ Detailed tutorial by [@The AI Guy](https://www.youtube.com/channel/UCrydcKaojc44
 |--------|---------|
 |[Github](https://github.com/theAIGuysCode/yolov3_deepsort)| [Colab](https://colab.research.google.com/drive/1PrEt-t-uLXgA8k8eeSn3SrSsnZlXS3Br)|
 
-### Getting started
+### 🏃‍♂️ Getting started
 
-#### Conda (Recommended)
+#### 📥 Conda (Recommended)
 
 ```bash
 # Tensorflow CPU
@@ -26,7 +26,7 @@ conda env create -f conda-gpu.yml
 conda activate tracker-gpu
 ```
 
-#### Pip
+#### 📥 Pip
 ```bash
 # TensorFlow CPU
 pip install -r requirements.txt
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 pip install -r requirements-gpu.txt
 ```
 
-#### Nvidia Driver (For GPU, if you haven't set it up already)
+#### 🛠 Nvidia Driver (For GPU, if you haven't set it up already)
 ```bash
 # Ubuntu 18.04
 sudo apt-add-repository -r ppa:graphics-drivers/ppa
@@ -44,7 +44,7 @@ sudo apt install nvidia-driver-430
 https://www.nvidia.com/Download/index.aspx
 ```
 -------
-### Downloading official pretrained weights
+### 📥 Downloading official pretrained weights
 <strong>For Linux</strong>: 
 You can download official yolov3 weights pretrained on COCO dataset.
 ```
