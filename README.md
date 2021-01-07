@@ -61,7 +61,7 @@ If you are on Windows, you can directly download the YOLOv3 weights from [👉 h
 ### Using Custom trained weights
 <strong> Learn How To Train Custom YOLOV3 Weights Here: https://www.youtube.com/watch?v=zJDUhGL26iU </strong>
 
-Add your custom weights file to weights folder and your custom .names file into data/labels folder.
+Add your custom weights file to weights folder and your custom `.names` file into data/labels folder.
   
 ### Saving your yolov3 weights as a TensorFlow model.
 Load the weights using `load_weights.py` script. This will convert the yolov3 weights into TensorFlow .tf model files!
