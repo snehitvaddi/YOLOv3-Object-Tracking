@@ -2,9 +2,10 @@
 This repository implements YOLOv3 and Deep SORT in order to perfrom real-time object tracking. Yolov3 is an algorithm that uses deep convolutional neural networks to perform object detection. We can feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in order for a real-time object tracker to be created.
 
 #### 🛠 Video Example
-|📋 Example 1 |📑 Example 2|
-|:-:|:-:|
-|![Demo of Object Tracker](data/helpers/demo.gif)|![Demo of Object Tracker](data/video/traffic-result-gif.gif)|
+|📋 Example |
+|:-:|
+|![Demo of Object Tracker](data/helpers/demo.gif)|
+|![Demo of Object Tracker](data/video/traffic-result-gif.gif)|
 
 Detailed tutorial by [@The AI Guy](https://www.youtube.com/channel/UCrydcKaojc44XnuXrfhlV8Q) on Object Tracking[Youtube Tutorial](https://www.youtube.com/watch?v=Cf1INvUsvkM&lc=z225j1ixysjxwhlvnacdp431jphj0oobdzwbosngo0dw03c010c.1585682883809851).
 
