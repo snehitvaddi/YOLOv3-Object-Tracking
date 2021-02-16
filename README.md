@@ -13,7 +13,14 @@ Detailed tutorial by [@The AI Guy](https://www.youtube.com/channel/UCrydcKaojc44
 |[Github](https://github.com/theAIGuysCode/yolov3_deepsort)| [Colab](https://colab.research.google.com/drive/1PrEt-t-uLXgA8k8eeSn3SrSsnZlXS3Br)|
 
 ### 🏃‍♂️ Getting started
+#### 📥 Pip
+```bash
+# TensorFlow CPU
+pip install -r requirements.txt
 
+# TensorFlow GPU
+pip install -r requirements-gpu.txt
+```
 #### 📥 Conda (Recommended)
 
 ```bash
@@ -24,15 +31,6 @@ conda activate tracker-cpu
 # Tensorflow GPU
 conda env create -f conda-gpu.yml
 conda activate tracker-gpu
-```
-
-#### 📥 Pip
-```bash
-# TensorFlow CPU
-pip install -r requirements.txt
-
-# TensorFlow GPU
-pip install -r requirements-gpu.txt
 ```
 
 #### 🛠 Nvidia Driver (For GPU, if you haven't set it up already)
