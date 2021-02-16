@@ -42,7 +42,6 @@ sudo apt install nvidia-driver-430
 # Windows/Other
 https://www.nvidia.com/Download/index.aspx
 ```
--------
 ### 📥 Downloading official pretrained weights
 <strong>For Linux</strong>: 
 You can download official yolov3 weights pretrained on COCO dataset.
@@ -56,7 +55,6 @@ wget https://pjreddie.com/media/files/yolov3-tiny.weights -O weights/yolov3-tiny
 
 If you are on Windows, you can directly download the YOLOv3 weights from [👉 here](https://pjreddie.com/media/files/yolov3.weights)
 
--------
 ### Using Custom trained weights
 <strong> Learn How To Train Custom YOLOV3 Weights Here: https://www.youtube.com/watch?v=zJDUhGL26iU </strong>
 
